@@ -1,0 +1,25 @@
+<view class="filterView">
+    <image src="/images/touch.png"></image>
+    <text>点击筛选</text>
+</view>
+
+<!-- 咨询师列表 -->
+<view class="consultListView">
+    <!-- 某一项结构 -->
+    <view class="consultView">
+        <view>
+            <image src="/images/zhangsan.png"></image>
+        </view>
+        <view class="consultInfoView">
+            <view>张三</view>
+            <view>xxx咨询师</view>
+            <view>心理专家、xxx专家、xxxxxxx</view>
+        </view>
+    </view>
+</view>
+
+<!-- 正在加载 -->
+<view class="loadingView">
+    <image src="/images/load.png"></image>
+    <text>正在加载更多资源</text>
+</view>

@@ -1,0 +1,32 @@
+.erweima{
+    width: 300rpx;
+    margin: 20rpx auto 60rpx;
+    font-size: 26rpx;
+    text-align: center;
+}
+
+.erweima > image{
+    width: 300rpx;
+    height: 300rpx;
+    padding-bottom: 10rpx;
+}
+
+.myInfoView{
+    padding:0 40rpx;
+}
+
+.myInfoItemView{
+    padding-bottom: 30rpx;
+}
+
+.myInfoItemView > image{
+    width: 670rpx;
+    height: 500rpx;
+    margin-bottom: 40rpx;
+}
+
+.myInfoItemView > view:nth-child(1){
+    font-size: 30rpx;
+    color: skyblue;
+    padding-bottom: 20rpx;
+}

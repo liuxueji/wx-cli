@@ -1,0 +1,70 @@
+.filterView{
+    background: #87ceeb;
+    height: 88rpx;
+    text-align: center;
+    line-height: 88rpx;
+}
+.filterView > image{
+    width: 48rpx;
+    height: 48rpx;
+    vertical-align: middle;
+}
+
+.filterView > text{
+    font-size: 30rpx;
+    color: #fff;
+    vertical-align: middle;
+}
+
+/* 咨询师列表 */
+.consultListView{
+    padding: 0 10rpx;
+}
+
+.consultView{
+    padding: 10px 0;
+    border-bottom: 1rpx solid #eee;
+    display: flex;
+}
+
+.consultView image{
+    width: 180rpx;
+    height: 180rpx;
+    margin-right: 10rpx;
+}
+
+.consultInfoView > view:nth-child(1){
+    font-size: 34rpx;
+    font-weight: bold;
+    line-height: 50rpx;
+}
+
+.consultInfoView > view:nth-child(2){
+    font-size: 30rpx;
+    color: #aaa;
+    line-height: 50rpx;
+}
+
+.consultInfoView > view:nth-child(3){
+    font-size: 24rpx;
+    color: #ccc;
+    line-height: 40rpx;
+}
+
+/* 正在加载 */
+.loadingView{
+    text-align: center;
+    height: 88rpx;
+    background: #fff;
+    line-height: 88rpx;
+}
+.loadingView > image{
+    width: 48rpx;
+    height: 48rpx;
+    vertical-align: middle;
+}
+
+.loadingView > text{
+    font-size: 28rpx;
+    vertical-align: middle;
+}

@@ -1,0 +1,64 @@
+<!-- 心理师详细信息 -->
+<view class="personMsg">
+    <view>
+        <image src="/images/zhangsan.png"></image>
+    </view>
+    <view>张三</view>
+    <view>广州市 国家一级xx师</view>
+    <view class="showView">
+        <view>已认证</view>
+        <view>查看证书</view>
+    </view>
+</view>
+
+<!-- 擅长领域 -->
+<view class="fieldView">
+    <view>农产品</view>
+    <view>母猪产后护理</view>
+    <view>肥料化肥</view>
+</view>
+
+<!-- 收费标准 -->
+<view class="ratesView">
+    <!-- 标题 -->
+    <view class="titleView">
+        收费标准
+    </view>
+    <!-- 收费项 -->
+    <view class="ratesItemView">
+        <view>语音咨询</view>
+        <view>553人已咨询</view>
+        <view>
+            <text>50</text>/次(小时)
+        </view>
+    </view>
+    
+    <!-- 收费项 -->
+    <view class="ratesItemView">
+        <view>视频咨询</view>
+        <view>134人已咨询</view>
+        <view>
+            <text>80</text>/次(小时)
+        </view>
+    </view>
+    
+    <!-- 收费项 -->
+    <view class="ratesItemView">
+        <view>线下咨询</view>
+        <view>5人已咨询</view>
+        <view>
+            <text>100</text>/次(小时)
+        </view>
+    </view>
+    <!-- 查看更多 -->
+    <view class="moreView">
+        <text>查看更多</text>
+        <view class="arrow"></view>
+    </view>
+</view>
+
+<!-- 发起咨询 -->
+<view class="bottomView">
+    <view>私信</view>
+    <view>咨询</view>
+</view>

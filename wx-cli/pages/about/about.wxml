@@ -1,0 +1,13 @@
+<!-- 二维码区域 -->
+<view class="erweima">
+    <image src="/images/zhangsan.png"></image>
+    <text>微信扫一扫关注我</text>
+</view>
+
+<!-- 作者信息 -->
+<view class="myInfoView">
+    <view class="myInfoItemView">
+        <view>张三</view>
+        <view>广东广州南方</view>
+    </view>
+</view>

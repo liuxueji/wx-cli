@@ -1,0 +1,25 @@
+<!-- 用户信息展示区域 -->
+<view class="userInfoView">
+    <view>昵称：{{userInfo.nickName}}</view>
+    <view>手机号：{{userInfo.phone}}</view>
+</view>
+
+<!-- 用户列表选项 -->
+<view class="userItemListView">
+    <navigator>
+        <text>我的测评</text>
+        <view class="arrow"></view>
+    </navigator>
+    <navigator>
+        <text>我的测评</text>
+        <view class="arrow"></view>
+    </navigator>
+    <navigator url="/pages/about/about" open-type="navigate">
+        <text>关于我们</text>
+        <view class="arrow"></view>
+    </navigator>
+    <navigator>
+        <text>我的测评</text>
+        <view class="arrow"></view>
+    </navigator>
+</view>

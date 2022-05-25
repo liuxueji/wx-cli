@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="searchOuterView">
+  <view class="searchInnerView">
+    <image src="{{baseUrl}}/images/1.png"></image>
+    <text>搜索</text>
+  </view>
+</view>
+
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <!-- block 类似 vue中的template  -->
+  <block wx:for="{{data}}" wx:key="*this">
+    <swiper-item>
+      <navigator open-type="navigate" url="">
+        <!-- 放置图片 -->
+        <image src="{{baseUrl+item.imgUrl}}"></image>
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 导航菜单 -->
+<view class="navView">
+  <view class="navItemView" wx:for="{{navs}}" wx:key="*this">
+    <image src="{{baseUrl + item.navImg}}"></image>
+    <text>{{item.navText}}</text>
+  </view>
+</view>
+
+<!-- 客服 -->
+<view class="onlineView">
+  <image src="{{baseUrl}}/images/kefu.png"></image>
+  <text>咨询在线客服</text>
+  <view class="arrow"></view>
+</view>
+
+<!-- 推荐内容 -->
+<view class="allArticleView">
+  <!-- 标题 -->
+  <view class="articleTitleView">
+    标题
+  </view>
+  <!-- 内容1 -->
+  <view class="articleView" wx:for="{{articles}}" wx:key="*this">
+    <view>
+      <image src="{{baseUrl + item.imgUrl}}"></image>
+    </view>
+    <view class="articleContent">
+      <view class="articleTitle">
+        {{item.title}}
+      </view>
+      <view class="articleDesc">
+        {{item.zhaiyao}}
+      </view>
+    </view>
+  </view>
+
+  <!-- 查看更多
+  <view class="moreView">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </view> -->
+
+  <!-- 实现组件跳转，将view换成navigator，添加url地址-->
+  <navigator class="moreView" url="/pages/article/article" open-type="navigate">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </navigator>
+</view>
+
+<!-- 请求回答 -->
+<view class="resView">
+  <image src="{{baseUrl}}/images/response.png"></image>
+</view>

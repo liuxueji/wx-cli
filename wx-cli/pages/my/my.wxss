@@ -1,0 +1,53 @@
+page{
+    background: #eee;
+  }
+.userInfoView{
+    background: skyblue;
+    padding: 30rpx 0 40rpx;
+    text-align: center;
+}
+
+.userInfoView > view:nth-child(1){
+    color:#fff;
+    font-size: 34rpx;
+}
+
+.userInfoView > view:nth-child(2){
+    color:#fff;
+    font-size: 30rpx;
+    padding: 30rpx 0;
+}
+
+.userInfoView > view:nth-child(3){
+    color:skyblue;
+    font-size: 34rpx;
+}
+
+/* 用户列表选项样式 */
+.userItemListView{
+    background: #fff;
+    padding: 0 50rpx;
+    margin: 24rpx0;
+}
+
+.userItemListView > navigator{
+    height: 88rpx;
+    line-height: 88rpx;
+    border-bottom: 1rpx solid #eee;
+    position: relative;
+}
+
+.userItemListView > navigator:last-child{
+    border: none;
+}
+
+.arrow{
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 4rpx solid #999;
+  border-right: 4rpx solid #999;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 30rpx;
+  top: 38rpx;
+}
